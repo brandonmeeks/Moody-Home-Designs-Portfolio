@@ -15,26 +15,50 @@ header img{
     border-radius: 25px;
     width: 30%;
     height: auto;
-
 }
 
 nav{
     background-color: #0f2647;
     border-radius: 5px;
-    color:lightgray;
 }
 
 nav a{
-    color:lightgray;
+    color: lightgray;
+}
+
+div{
+    background-color: #0f2647;
+    color: lightgray;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.left-text{
+}
+
+.right-text{
+    
+}
+
+.left-image{
+    height: 25%;
+    width: auto;
+    padding: 10px;
+}
+
+.right-image{
+    height: 25%;
+    width: auto;
+    padding: 10px;
 }
 
 footer{
     background-color: #0f2647;
     border-radius: 5px;
-    color:lightgray;
+    color: lightgray;
     text-align: center;
 }
 
-p{
+footer p{
     margin: 5px;
 }
