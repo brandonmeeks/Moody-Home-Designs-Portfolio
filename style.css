@@ -19,7 +19,7 @@ header img{
 
 nav{
     background-color: #0f2647;
-    width: 1728px;
+    width: 90%;
     margin: auto;
 }
 
@@ -32,7 +32,7 @@ nav a{
     background-color: #0f2647;
     color: lightgray;
     height: fit-content;
-    width: 1728px;
+    width: 90%;
     margin: auto;
 }
 
@@ -41,12 +41,13 @@ nav a{
 }
 
 .images{
-    height: 40%;
-    width: auto;
+    height: auto;
+    width: 95%;
     margin: 10px;
 }
 
 .text{
+    width: 67%;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -61,7 +62,7 @@ footer{
     border-radius: 5px;
     color: lightgray;
     text-align: center;
-    width: 1728px;
+    width: 90%;
     margin: auto;
 }
 
