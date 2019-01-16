@@ -1,27 +1,40 @@
-html {
+html{
     background-image: url("Resources/background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-header {
+header{
     width:100%;
     height: fit-content;
     text-align: center;
 }
-header img {
+header img{
     display: inline-block;
-    background-color:lightgray;
+    background-color: lightgray;
     border-radius: 25px;
-    width: 50%;
+    width: 30%;
     height: auto;
 
 }
 
-nav {
-    background-color: #11096e
+nav{
+    background-color: #0f2647;
+    border-radius: 5px;
+    color:lightgray;
 }
 
 nav a{
-    color:white;
+    color:lightgray;
+}
+
+footer{
+    background-color: #0f2647;
+    border-radius: 5px;
+    color:lightgray;
+    text-align: center;
+}
+
+p{
+    margin: 5px;
 }
