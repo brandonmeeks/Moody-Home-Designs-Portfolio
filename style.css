@@ -23,9 +23,12 @@ nav{
     margin: auto;
 }
 
+nav ul{
+    width: fit-content;
+}
+
 nav a{
     color: lightgray;
-
 }
 
 .content{
