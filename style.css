@@ -34,7 +34,7 @@ nav a{
     padding: 5px;
     margin: 1.5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.7em;
+    font-size: 1.5vw;
 
 }
 
@@ -60,7 +60,7 @@ nav a{
     width: 67%;
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 1.5vw;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 15px;
