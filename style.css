@@ -7,30 +7,36 @@
 header{
     width:100%;
     height: fit-content;
-    background-color: white;
-    
+    background-color: #0f2647;   
 }
 header img{
-    border-radius: 25px;
-    width: 20%;
+    width: 33vh;
     height: auto;
-    margin-top: .1vh;
-    margin-bottom: .2vh;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+
+header .col-9{
+padding-left: 0;
 }
 
 #header-contact, #header-contact a{
     text-align: right;
-    color: #0f2647;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.2vh;
+}
+
+#header-contact p{
+    margin-bottom:0;
 }
 
 .sidebar{
     height: 100%;
     width:10%;
     position: fixed;
-    background-color:#0f2647;
-    
+    background-color:#0f2647;    
 }
 
 .sidebar a{
