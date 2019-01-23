@@ -1,18 +1,21 @@
-<html lang="en-US" class="background">
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Brandon Meeks">
         <meta name="description" content="Based in Lafayette, Louisiana, Moody Home Designs creates custom furniture and decor
         for your home or office.">
 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="Resources/Icon.ico">
 
         <title>Moody Home Designs</title>
 
     </head>
-    <body>
+    <body  class="background">
         <header>
+            <!--TODO: refactor header to be a "sticky header"
+                add contact info and social media icon links-->
             <a href="index.html">
             <img src="Resources/Logo.png"
                  alt="Moody Home Designs Logo">
@@ -20,11 +23,17 @@
         </header>
 
         <nav>
+            <!--TODO: refactor navbar to be a left side "sticky navbar"
+            add font awesome icons to links. Consider using buttons or tables? -->
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="projects.html">Projects</a>
             <a href="contact.html">Contact Us</a>
         </nav>
+
+        <main>
+            <!--TODO: reorganize main content window to utilize bootstrap-->
+        </main>
 
         <div class="content">
             <div class="flexbox">
@@ -81,5 +90,8 @@
             <p>E: email@moodyhomedesigns.com</p>
         </footer>
 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
 </html>
