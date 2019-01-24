@@ -1,31 +1,31 @@
 .background{
-    background-image: url("Resources/background.png");
-    background-size: contain;
-    background-repeat: repeat;
+    background-image:url("Resources/background.png");
+    background-size:contain;
+    background-repeat:repeat;
 }
 
 header{
     width:100%;
-    height: fit-content;
-    background-color: #0f2647;   
+    height:fit-content;
+    background-color:#0f2647;   
 }
 header img{
-    width: 33vh;
-    height: auto;
+    width:33vh;
+    height:auto;
     background-color:white;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
 }
 
 header .col-9{
-padding-left: 0;
+padding-left:0;
 }
 
 #header-contact, #header-contact a{
-    text-align: right;
+    text-align:right;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.2vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2.2vh;
 }
 
 #header-contact p{
@@ -33,28 +33,28 @@ padding-left: 0;
 }
 
 .sidebar{
-    height: 100%;
+    height:100%;
     width:10%;
-    position: fixed;
+    position:fixed;
     background-color:#0f2647;    
 }
 
 .sidebar a{
-    display: block;
-    padding: .6vh;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.2vh; 
+    display:block;
+    padding:.6vh;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:2.2vh; 
 }
 
 .sidebar i{
-    margin-left: 1%;
+    margin-left:1%;
     margin-right:2%;
 }
 
 hr{
     background-color:gray;
-    margin: 3%;
+    margin:3%;
 }
 
 main, footer{
